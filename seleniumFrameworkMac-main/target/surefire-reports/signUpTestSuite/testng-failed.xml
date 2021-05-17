@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [signUpTestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test name="Test(failed)">
+    <classes>
+      <class name="org.spaces.totalSales">
+        <methods>
+          <include name="totalSalesTest"/>
+        </methods>
+      </class> <!-- org.spaces.totalSales -->
+      <class name="org.spaces.completeAdvancedSale">
+        <methods>
+          <include name="completeAdvancedSaleTest"/>
+        </methods>
+      </class> <!-- org.spaces.completeAdvancedSale -->
+      <class name="org.spaces.completeBasicSale">
+        <methods>
+          <include name="completeBasicSaleTest"/>
+        </methods>
+      </class> <!-- org.spaces.completeBasicSale -->
+      <class name="org.spaces.incompleteBasicSale">
+        <methods>
+          <include name="incompleteBasicSaleTest"/>
+        </methods>
+      </class> <!-- org.spaces.incompleteBasicSale -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [signUpTestSuite] -->
